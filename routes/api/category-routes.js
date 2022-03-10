@@ -7,7 +7,12 @@ router.get('/', (req, res) => {
   // find all categories
   // be sure to include its associated Products
   Category.findAll({
-    // attributes: { exclude: ['password'] }
+    include: [
+      {
+        model: Product,
+        attributes: ['id', 'product_name', 'price', 'stock']
+      }
+    ]
   })
     .then(dbCategoryData => res.json(dbCategoryData))
     .catch(err => {
@@ -20,31 +25,15 @@ router.get('/:id', (req, res) => {
   // find one category by its `id` value
   // be sure to include its associated Products
   Category.findOne({
-    // attributes: { exclude: ['password'] },
     where: {
       id: req.params.id
     },
-    // include: [
-    //     {
-    //         model: Post,
-    //         attributes: ['id', 'title', 'post_url', 'created_at']
-    //     },
-    //     // include the Comment model here:
-    //     {
-    //         model: Comment,
-    //         attributes: ['id', 'comment_text', 'created_at'],
-    //         include: {
-    //             model: Post,
-    //             attributes: ['title']
-    //         }
-    //     },
-    //     {
-    //         model: Post,
-    //         attributes: ['title'],
-    //         through: Vote,
-    //         as: 'voted_posts'
-    //     }
-    // ]
+    include: [
+      {
+        model: Product,
+        attributes: ['id', 'product_name', 'price', 'stock']
+      }
+    ]
   })
     .then(dbCategoryData => {
       if (!dbCategoryData) {
@@ -74,7 +63,7 @@ router.post('/', (req, res) => {
 router.put('/:id', (req, res) => {
   // update a category by its `id` value
   Category.update(req.body, {
-    // individualHooks: true,
+
     where: {
       id: req.params.id
     }
