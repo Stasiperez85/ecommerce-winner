@@ -13,10 +13,7 @@ router.get('/', (req, res) => {
       {
         model: Category,
         attributes: ['id', 'category_name'],
-        include: {
-          model: User,
-          attributes: ['username']
-        },
+
         model: Tag,
         attributes: ['id', 'tag_name']
       }
@@ -60,7 +57,7 @@ router.get('/:id', (req, res) => {
         res.status(404).json({ message: 'No product found with this id' });
         return;
       }
-      res.json(dbPostData);
+      res.json(dbProductData);
     })
     .catch(err => {
       console.log(err);
