@@ -26,6 +26,6 @@ Credits YouTube, google, TA’s and tutor
 
 Github Stasiperez85
 
-GitHub Links https://github.com/Stasiperez85/company-tracker
+GitHub Links https://github.com/Stasiperez85/ecommerce-winner
 
 
