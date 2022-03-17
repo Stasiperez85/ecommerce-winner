@@ -20,7 +20,10 @@ Installation Usage Credits Installation This is created using the command-line i
 
 Usage
 
-Clink link to view video of how to generate ecommerce-winner. 
+Clink link to view video of how to generate ecommerce-winner. https://drive.google.com/file/d/1uAn6VAfqehCtcuDK_vEeL2GQx_tU1wvv/view
+
+https://drive.google.com/file/d/1nY5GUDjalA2KuM5Q0XzD9j9Atl4nXJCk/view
+
 
 Credits YouTube, google, TA’s and tutor
 
