@@ -24,8 +24,15 @@ Clink link to view video of how to generate ecommerce-winner. https://drive.goog
 
 https://drive.google.com/file/d/1nY5GUDjalA2KuM5Q0XzD9j9Atl4nXJCk/view
 
+![Screen Shot 2022-03-16 at 10 05 20 PM](https://user-images.githubusercontent.com/78401136/158735115-8fe953a6-289a-4265-9810-9e72fa69c868.png)
+
+![Screen Shot 2022-03-16 at 10 05 30 PM](https://user-images.githubusercontent.com/78401136/158735123-85ddf35c-f053-4df6-8a6f-7fa4d8782ac3.png)
 
 Credits YouTube, google, TA’s and tutor
+
+ScreenShots: ![Screen Shot 2022-03-16 at 10 05 00 PM](https://user-images.githubusercontent.com/78401136/158735101-7e5f369c-d4f9-43f8-bdf8-b8e006f13ad8.png)
+
+
 
 Github Stasiperez85
 
